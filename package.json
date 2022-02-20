@@ -1,0 +1,14 @@
+{
+  "name": "eslint-plugin-literate-comments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./patch-eslint.sh"
+  },
+  "author": "Tony Mobily",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "eslint": "^8.3.0"
+  }
+}
