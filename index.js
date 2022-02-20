@@ -31,6 +31,7 @@ module.exports = {
 
       // Rules copied from 'standard'
       rules: {
+        "indent": "off",
         "literate-comments/indent": ["error", 2, {
           "SwitchCase": 1,
           "VariableDeclarator": 1,
