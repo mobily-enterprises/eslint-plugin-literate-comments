@@ -12,7 +12,7 @@ fi
 # If the string is not already there, apply the patch
 str="module.exports.create.offsets = offsets;"
 if ! grep -q "$str" $file; then
-  sed -i -- "/const parameterParens = new WeakSet();/a\ \ \ \ \ \ \ \ $str" indent.js  
+  sed -i -- "/const parameterParens = new WeakSet();/a\ \ \ \ \ \ \ \ $str" $file  
 else
   echo "Original indent.js already patched. Patching was skipped"
 fi
