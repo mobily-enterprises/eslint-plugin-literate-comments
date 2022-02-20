@@ -1,4 +1,4 @@
-const indent = require('..eslint/lib/rules/indent.js')
+const indent = require('../eslint/lib/rules/indent.js')
 
 let createWrapper = function(context) {
   const originalCreateResult = indent.create(context)
